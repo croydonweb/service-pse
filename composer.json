@@ -1,0 +1,21 @@
+{
+  "name": "croydon/service-pse",
+  "description": "Consumo pse ecollect",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Casas",
+      "email": "joncasasq@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-soap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Croydon\\Service\\Pse\\": "src/Service/Pse/"
+    }
+  }
+}
